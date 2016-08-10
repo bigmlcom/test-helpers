@@ -34,7 +34,7 @@
 
 (defn test-children
   "Given a namespace prefix, either runs all unit tests in namespaces
-  matching t he prefix, or interactively select which matching
+  matching the prefix, or interactively select which matching
   namespaces to run.
 
   Usage: lein test-children prefix [interactive?]"
@@ -44,8 +44,8 @@
    (let [nses (bultitude/namespaces-on-classpath
                :prefix prefix
                :classpath (map io/file (distinct (:test-paths project))))
-         _ (lein/info  "Found" (count nses) "namespaces with prefix"
-                       prefix)
+         _ (lein/info "Found" (count nses) "namespaces with prefix"
+                      prefix)
          nses (or (and interactive? (choose-namespaces nses))
                   (map str nses))
          nses (sort nses)]
