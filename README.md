@@ -15,13 +15,14 @@ Put `[test-helpers "0.1.0"]` into the `:plugins` vector of your project.clj.
 
 Provides two lein tasks:
 
-### test-repeat
+### iteratest
 
-Runs the test in a given namespace or list of namespaces multiple times
+Repeatedly runs the test in a given namespace or list of namespaces
+until failure occurs or a given maximum number of iterations.
 
-    $ lein test-repeat 10 wintermute.test.predict.iforest-batch-predictions
+    $ lein iteratest 10 wintermute.test.predict.iforest-batch-predictions
 
-    $ lein test-repeat 42 phi.test.text.util phi.test.text.common
+    $ lein iteratest 42 phi.test.text.util phi.test.text.common
 
 ### test-children
 

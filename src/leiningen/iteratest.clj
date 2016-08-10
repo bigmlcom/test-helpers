@@ -2,13 +2,13 @@
 ;; Licensed under the Apache License, Version 2.0
 ;; http://www.apache.org/licenses/LICENSE-2.0
 
-(ns leiningen.test-repeat
+(ns leiningen.iteratest
   "Repeat a test multiple times"
   (:require [leiningen.core.main :as lein]
             [leiningen.core.eval :as lein-eval]
             [leiningen.core.project :as lein-project]))
 
-(defn test-repeat
+(defn iteratest
   "Repeat a test until failure or a maximum number of iterations"
   [project max-iter & tests]
   (let [max-iter (read-string max-iter)
