@@ -1,8 +1,6 @@
 ;; Copyright (c) 2016 BigML, Inc
-;; All rights reserved.
-
-;; Author: Chee Sing Lee <lee@bigml.com>
-;; Start date: Mon Aug 08, 2016 17:19
+;; Licensed under the Apache License, Version 2.0
+;; http://www.apache.org/licenses/LICENSE-2.0
 
 (ns leiningen.test-children
   "Run unit tests in namespaces with a given prefix"
