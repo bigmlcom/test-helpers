@@ -6,12 +6,12 @@ A Leiningen plugin to help with running unit tests.
 
 To install on user-level:
 
-Put `[bigml/test-helpers "0.1.0"]` into the `:plugins` vector of your `:user`
+Put `[bigml/test-helpers "0.1.1"]` into the `:plugins` vector of your `:user`
 profile.
 
 To install on a project-level:
 
-Put `[bigml/test-helpers "0.1.0"]` into the `:plugins` vector of your project.clj.
+Put `[bigml/test-helpers "0.1.1"]` into the `:plugins` vector of your project.clj.
 
 Provides two lein tasks:
 
