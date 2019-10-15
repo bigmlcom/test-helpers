@@ -1,4 +1,4 @@
-(defproject bigml/test-helpers "0.1.1"
+(defproject bigml/test-helpers "0.1.2"
   :description "A Leiningen plugin to help with running unit tests"
   :url "https://github.com/bigmlcom/test-helpers"
   :license {:name "Apache License, Version 2.0"
